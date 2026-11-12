@@ -12,7 +12,7 @@ I designed this DI box, which mounts directly onto the back of a Genelec 8010, f
 
 ## Schematics
 **The component values in the PDF may be incorrect; please refer to the BOM table instead.**
-<embed src="https://github.com/kevinkewang/lab_8010diadapter/blob/main/hardware_design/circuit.pdf" type="application/pdf" width="100%" height="600">
+https://github.com/kevinkewang/lab_8010diadapter/blob/main/hardware_design/circuit.pdf
 
 ## PCB
 ![lab_8010diadapter_pcb](https://github.com/kevinkewang/lab_8010diadapter/blob/main/images/pcb.png)

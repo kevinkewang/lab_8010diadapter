@@ -4,7 +4,7 @@ I designed this DI box, which mounts directly onto the back of a Genelec 8010, f
 <img src="https://github.com/kevinkewang/lab_8010diadapter/blob/main/images/IMG_2983.jpg" width="60%" alt="8010 DI adapter">
 
 ## Main features:
-* The rotary switch offers four settings: Mute, -40dB (for Eurorack-level signals), -20dB, and Pass-through.
+* The rotary switch offers four settings: Mute, -38dB (for Eurorack-level signals), -20dB, and Pass-through.
 * When the rotary switch is set to "Mute," the indicator light can still show the presence of a signal.
 * The "Ground Lift" switch allows for the disconnection of the ground line, which can help eliminate noise in certain scenarios.
 * A 10K:600 transformer is used for isolation, providing protection for your speakers.
@@ -17,14 +17,27 @@ https://github.com/kevinkewang/lab_8010diadapter/blob/main/hardware_design/circu
 <img src="https://github.com/kevinkewang/lab_8010diadapter/blob/main/images/pcb.png" width="60%" alt="8010 DI adapter">
 
 ## Bill of materials
-| Designator                   | Qty | Value              | Footprint     | Description                    | Ref. Mouser                          | Ref. LCSC | References                            |
-|------------------------------|-----|--------------------|---------------|--------------------------------|--------------------------------------|-----------|---------------------------------------|
-| **PTH parts**                |     |                    |               |                                |                                      |           |                                       |
-| C2                           | 1   | 22uF               | D6.3xL7mm     | Electrolytic                   | 647-UKL1V220KEDANA                   | C433313   | Nichicon USV1V220MFD                  |
-| C1                           | 1   | 120uF              | D8xL7mm       | Electrolytic                   | 667-50SEK120M                        | C3010233  | PANASONIC 50SEK120M                   |
-| KK1, KK3, KK4                | 3   | Heat sink          |               | Heat sink                      | 532-529702B25G                       | C286227   | Heat sink                             |
-| J1                           | 1   | DC Power Connector |               | 2.1 mm, 5.5 mm                 | 710-694106301002                     | C136744   | Wurth Elektronik 694106301002         |
-| J2, J6                       | 2   | M3 screw terminal  |               | terminal (Optional)            | 534-7770                             | C481448   | Keystone 7770                         |
+| Designator                      | Qty | Value               | Footprint     | Description                     | Mouser Part No.                              |
+|---------------------------------|-----|---------------------|---------------|---------------------------------|----------------------------------------------|
+| **PTH parts**                   |     |                     |               |                                 |                                              |
+| T1                              | 1   | 10K:600             |               | audio transformer               |                                              |
+| SW1                             | 1   | ALPHA-SR1712F-0204  |               | rotary switch                   | 105-SR1712F-24NS                             |
+| SW2                             | 1   |                     |               | switch                          |                                              |
+| J1                              | 1   | 3.5mm Jack WQP518MA |               | Thonkiconn – 3.5mm Jack Sockets | https://www.thonk.co.uk/shop/thonkiconn/     |
+| X1                              | 1   | Neutrik XLR Jack    |               | Neutrik NC3MAAV                 | 568-NC3MAAV                                  |
+| LED1                            | 1   | Kingbright WP937EGW |               | RED/GREEN DIFFUSED 2-LEAD       | 604-WP937EGW                                 |
+| C1                              | 1   | 10uF ±10% 63V       |               | Film Capacitor                  | 871-B32522C106K                              |
+| C2                              | 1   | 10nF ±5% 50V        |               | Through-hole MLCC capacitor     | 594-K103J20C0GF5TH5                          |
+| R1                              | 1   | 620 Ohms            |               | 1/4W Through-Hole Resistor      | Resistor for LED                             |
+| R4                              | 1   | 51 Ohms             |               | 1/4W Through-Hole Resistor      | Resistor for Ground Lift                     |
+| R5, R6                          | 1   | 9.1kΩ               |               | 1/4W Through-Hole Resistor      | −38dB T-pad attenuation                      |
+| R7                              | 1   | 1kΩ                 |               | 1/4W Through-Hole Resistor      | −38dB T-pad attenuation                      |
+| R8, R9                          | 1   | 4.02kΩ              |               | 1/4W Through-Hole Resistor      | −20dB T-pad attenuation                      |
+| R10                             | 1   | 10kΩ                |               | 1/4W Through-Hole Resistor      | −20dB T-pad attenuation                      |
+| **Mount parts**                 |     |                     |               |                                 |                                              |
+| nylon spacer M4 x 8mm x 1mm     | 4   |                     |               |                                 |                                              |
+| nylon holder 4.2mm x 7mm x 5mm  | 4   |                     |               |                                 |                                              |
+| screw M4 x 16mm                 | 4   |                     |               |                                 |                                              |
 
 
 ## License

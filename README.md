@@ -1,7 +1,7 @@
 # lab_8010diadapter
 I designed this DI box, which mounts directly onto the back of a Genelec 8010, for use during synthesizer development and workshops. It supports both line-level and Eurorack-level signals and includes a ground-lift function, helping to prevent damage to your speakers while you’re testing synthesizers. I have now made it open-source.
 
-![lab_8010diadapter_1](https://github.com/kevinkewang/lab_8010diadapter/blob/main/images/IMG_2983.jpg){:width="60%"}
+<img src="https://raw.githubusercontent.com/kevinkewang/lab_8010diadapter/refs/heads/main/images/IMG_2983.jpg" width="60%" />
 **8010 DI adapter**
 
 ## Main features:
@@ -15,7 +15,7 @@ I designed this DI box, which mounts directly onto the back of a Genelec 8010, f
 https://github.com/kevinkewang/lab_8010diadapter/blob/main/hardware_design/circuit.pdf
 
 ## PCB
-![lab_8010diadapter_pcb](https://github.com/kevinkewang/lab_8010diadapter/blob/main/images/pcb.png){:width="60%"}
+<img src="https://raw.githubusercontent.com/kevinkewang/lab_8010diadapter/refs/heads/main/images/pcb.png" width="60%" />
 
 ## Bill of materials
 | Designator                   | Qty | Value              | Footprint     | Description                    | Ref. Mouser                          | Ref. LCSC | References                            |

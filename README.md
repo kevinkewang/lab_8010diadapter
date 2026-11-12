@@ -11,8 +11,8 @@ I designed this DI box, which mounts directly onto the back of a Genelec 8010, f
 * A 10K:600 transformer is used for isolation, providing protection for your speakers.
 
 ## Schematics
-**PDF中的元件数值可能不正确，请以BOM表格为准**
-![lab_8010diadapter_circuit](https://github.com/kevinkewang/lab_8010diadapter/blob/main/hardware_design/circuit.pdf)
+**The component values in the PDF may be incorrect; please refer to the BOM table instead.**
+<embed src="https://github.com/kevinkewang/lab_8010diadapter/blob/main/hardware_design/circuit.pdf" type="application/pdf" width="100%" height="600">
 
 ## PCB
 ![lab_8010diadapter_pcb](https://github.com/kevinkewang/lab_8010diadapter/blob/main/images/pcb.png)
